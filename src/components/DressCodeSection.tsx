@@ -6,8 +6,12 @@ const DressCodeSection = () => {
           Klädkod
         </h2>
         <div className="section-divider" />
-        <p className="text-muted-foreground font-light leading-relaxed mt-8">
-          Mer information kommer snart.
+        <p className="text-lg font-display italic text-foreground mt-8 mb-4">
+          Mörk kostym
+        </p>
+        <p className="text-muted-foreground font-light leading-relaxed">
+          Det allra viktigaste är att du känner dig bekväm och kan njuta av dagen
+          tillsammans med oss.
         </p>
       </div>
     </section>
