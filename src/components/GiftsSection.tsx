@@ -7,7 +7,11 @@ const GiftsSection = () => {
         </h2>
         <div className="section-divider" />
         <p className="text-muted-foreground font-light leading-relaxed mt-8">
-          Det finaste ni kan ge oss är er närvaro. Mer information om eventuella önskemål kommer snart.
+          Det finaste ni kan ge oss är er närvaro.
+        </p>
+        <p className="text-muted-foreground font-light leading-relaxed mt-4">
+          Skulle ni ändå vilja uppvakta oss med en gåva önskar vi oss ett bidrag
+          till vår bröllopsresa.
         </p>
       </div>
     </section>
