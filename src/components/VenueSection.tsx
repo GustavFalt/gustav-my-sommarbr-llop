@@ -6,13 +6,13 @@ const VenueSection = () => {
       title: "Vigsel",
       name: "Gamla Uppsala kyrka",
       address: "Disavägen 8, 754 40 Uppsala",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000!2d17.6369!3d59.8983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465fcb01dbeb3d05%3A0x5c293d0fc3e9e17c!2sGamla%20Uppsala%20kyrka!5e0!3m2!1ssv!2sse!4v1700000000000",
+      mapUrl: "https://maps.google.com/maps?q=Gamla+Uppsala+kyrka,+Disav%C3%A4gen+8,+754+40+Uppsala&hl=sv&z=15&output=embed",
     },
     {
       title: "Fest",
       name: "Ulva Kvarn",
-      address: "Ulva 15, 755 93 Uppsala",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000!2d17.6!3d59.88!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465fcb9e8e7b1a1d%3A0x2cf5a2e55b14c0a0!2sUlva%20Kvarn!5e0!3m2!1ssv!2sse!4v1700000000000",
+      address: "Ulva kvarn, 755 93 Uppsala",
+      mapUrl: "https://maps.google.com/maps?q=Ulva+kvarn,+755+93+Uppsala&hl=sv&z=15&output=embed",
     },
   ];
 
