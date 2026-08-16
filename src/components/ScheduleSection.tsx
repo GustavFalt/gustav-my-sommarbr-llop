@@ -3,7 +3,7 @@ const ScheduleSection = () => {
     { time: "14:30", label: "Vigsel", description: "Gamla Uppsala kyrka" },
     { time: "16:00", label: "Mingel", description: "Välkomstdrink & mingel på Ulva Kvarn" },
     { time: "18:00", label: "Middag", description: "Trerätters middag" },
-    { time: "Efter middagen", label: "Fest", description: "Dansgolvet öppnas när middagen är klar" },
+    { time: "Efter middagen", label: "Fest", description: "" },
   ];
 
   return (
