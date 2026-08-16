@@ -15,7 +15,7 @@ const PracticalInfoSection = () => {
     {
       icon: Phone,
       title: "Kontakt",
-      text: "Har ni frågor? Tveka inte att höra av er till oss.",
+      text: "Har ni frågor? Tveka inte att höra av er till oss.\nGustav: +46 70 563 88 22\nMy: +46 72 387 57 87",
     },
   ];
 
