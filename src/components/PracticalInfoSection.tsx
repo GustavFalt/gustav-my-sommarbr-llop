@@ -3,7 +3,7 @@ import { Car, BedDouble, Phone } from "lucide-react";
 const PracticalInfoSection = () => {
   const sections = [
     {
-      icon: Train,
+      icon: Car,
       title: "Parkering",
       text: "Parkering vid Gamla Uppsala kyrka finns i anslutning till Gamla Uppsala högar eller vid Odinsborg.\n\nVid Ulva Kvarn finns möjlighet att parkera på markerade platser. På gräsplanen väster om kvarnen finns det gott om plats.",
     },
