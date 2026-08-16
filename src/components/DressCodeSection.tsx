@@ -10,7 +10,7 @@ const DressCodeSection = () => {
           Mörk kostym
         </p>
         <p className="text-muted-foreground font-light leading-relaxed">
-          Det allra viktigaste är att du känner dig bekväm och kan njuta av dagen
+          Det viktigaste är däremot att du känner dig bekväm och kan njuta av dagen
           tillsammans med oss.
         </p>
       </div>
