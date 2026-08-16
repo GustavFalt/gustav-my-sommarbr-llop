@@ -1,9 +1,9 @@
 const ScheduleSection = () => {
   const events = [
-    { time: "15:00", label: "Vigsel", description: "Gamla Uppsala kyrka" },
-    { time: "16:30", label: "Mingel", description: "Välkomstdrink & mingel" },
-    { time: "18:00", label: "Middag", description: "Treretters middag" },
-    { time: "21:00", label: "Fest", description: "Dans & firande" },
+    { time: "14:30", label: "Vigsel", description: "Gamla Uppsala kyrka" },
+    { time: "16:00", label: "Mingel", description: "Välkomstdrink & mingel på Ulva Kvarn" },
+    { time: "18:00", label: "Middag", description: "Trerätters middag" },
+    { time: "Efter middagen", label: "Fest", description: "Dansgolvet öppnas när middagen är klar" },
   ];
 
   return (
@@ -16,7 +16,7 @@ const ScheduleSection = () => {
         <div className="mt-12 space-y-10">
           {events.map((event) => (
             <div key={event.label} className="flex items-start gap-8 text-left max-w-sm mx-auto">
-              <span className="text-lg font-light text-muted-foreground w-16 shrink-0 pt-0.5">
+              <span className="text-lg font-light text-muted-foreground w-24 shrink-0 pt-0.5">
                 {event.time}
               </span>
               <div>
