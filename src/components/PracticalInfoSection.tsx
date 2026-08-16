@@ -31,7 +31,7 @@ const PracticalInfoSection = () => {
             <div key={section.title} className="text-center">
               <section.icon className="w-5 h-5 text-primary mx-auto mb-4" strokeWidth={1.5} />
               <h3 className="font-display text-lg text-foreground mb-3">{section.title}</h3>
-              <p className="text-sm text-muted-foreground font-light leading-relaxed">
+              <p className="text-sm text-muted-foreground font-light leading-relaxed whitespace-pre-line">
                 {section.text}
               </p>
             </div>
