@@ -7,8 +7,8 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})`, backgroundPosition: "center 35%" }}
       />
-      <div className="absolute inset-0 bg-foreground/30" />
-      <div className="relative z-10 text-center px-8 py-14 md:px-16 md:py-16 animate-fade-in bg-foreground/35 backdrop-blur-sm rounded-2xl max-w-2xl">
+      <div className="absolute inset-0 bg-foreground/40" />
+      <div className="relative z-10 text-center px-8 py-14 md:px-16 md:py-16 animate-fade-in bg-foreground/45 backdrop-blur-sm rounded-2xl max-w-2xl">
         <p className="text-sm tracking-[0.3em] uppercase text-background/90 mb-6 font-body">
           Vi gifter oss
         </p>
@@ -18,10 +18,6 @@ const HeroSection = () => {
         <div className="section-divider !bg-background/60" />
         <p className="text-lg md:text-xl text-background font-light tracking-wide">
           24 juli 2027
-        </p>
-        <p className="mt-10 max-w-md mx-auto text-background/90 font-light leading-relaxed">
-          Med glädje och kärlek bjuder vi in er att dela vår dag – en sommarkväll
-          att minnas, omgiven av natur, nära och kära.
         </p>
       </div>
     </section>
