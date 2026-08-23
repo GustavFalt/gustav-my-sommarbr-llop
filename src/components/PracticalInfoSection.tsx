@@ -1,4 +1,4 @@
-import { Car, BedDouble, Phone } from "lucide-react";
+import { Car, BedDouble, Phone, Mic } from "lucide-react";
 
 const PracticalInfoSection = () => {
   const sections = [
