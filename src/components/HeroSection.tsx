@@ -20,7 +20,7 @@ const HeroSection = () => {
         <p className="text-lg md:text-xl text-background/90 font-light tracking-wide drop-shadow-md">
           24 juli 2027
         </p>
-        <p className="mt-10 max-w-md mx-auto text-background/80 font-light leading-relaxed drop-shadow-md">
+        <p className="mt-10 max-w-md mx-auto text-background/90 font-light leading-relaxed" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.6)" }}>
           Med glädje och kärlek bjuder vi in er att dela vår dag – en sommarkväll
           att minnas, omgiven av natur, nära och kära.
         </p>
