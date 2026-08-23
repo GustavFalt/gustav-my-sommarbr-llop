@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroAsset.url})` }}
+        style={{ backgroundImage: `url(${heroImage})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-foreground/30 via-foreground/40 to-foreground/50" />
       <div className="relative z-10 text-center px-6 animate-fade-in">
