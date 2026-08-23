@@ -7,8 +7,7 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})`, backgroundPosition: "center 35%" }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-foreground/70 via-foreground/55 to-foreground/65" />
-      <div className="absolute inset-0 bg-foreground/45" />
+      <div className="absolute inset-0 bg-foreground/30" />
       <div className="relative z-10 text-center px-8 py-14 md:px-16 md:py-16 animate-fade-in bg-foreground/35 backdrop-blur-sm rounded-2xl max-w-2xl">
         <p className="text-sm tracking-[0.3em] uppercase text-background/90 mb-6 font-body">
           Vi gifter oss
