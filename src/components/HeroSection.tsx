@@ -7,7 +7,7 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroAsset.url})` }}
       />
-      <div className="absolute inset-0 bg-background/65" />
+      <div className="absolute inset-0 bg-gradient-to-b from-foreground/30 via-foreground/40 to-foreground/50" />
       <div className="relative z-10 text-center px-6 animate-fade-in">
         <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-6 font-body">
           Vi gifter oss
