@@ -12,7 +12,7 @@ const HeroSection = () => {
         <p className="text-sm tracking-[0.3em] uppercase text-background/90 mb-6 font-body">
           Vi gifter oss
         </p>
-        <h1 className="text-6xl md:text-8xl font-display font-normal italic text-background mb-6">
+        <h1 className="text-6xl md:text-8xl font-display font-normal italic text-background mb-6 whitespace-nowrap">
           Gustav & My
         </h1>
         <div className="section-divider !bg-background/60" />
