@@ -37,6 +37,16 @@ const PracticalInfoSection = () => {
             </div>
           ))}
         </div>
+        <div className="mt-20 text-center">
+          <Mic className="w-5 h-5 text-primary mx-auto mb-4" strokeWidth={1.5} />
+          <h3 className="font-display text-lg text-foreground mb-3">Tal & toastmadames</h3>
+          <p className="text-sm text-muted-foreground font-light leading-relaxed max-w-md mx-auto">
+            Önskar du att hålla tal under kvällen eller vill komma i kontakt med våra toastmadames mejlar du:{" "}
+            <a href="mailto:toastmadames@example.com" className="text-primary underline underline-offset-2">
+              toastmadames@example.com
+            </a>
+          </p>
+        </div>
       </div>
     </section>
   );
