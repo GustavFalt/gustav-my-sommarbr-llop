@@ -12,21 +12,16 @@ const PracticalInfoSection = () => {
       title: "Boende",
       text: "Uppsala erbjuder flera hotell och boenden. Vi rekommenderar att boka i god tid då det är högsäsong.",
     },
-    {
-      icon: Phone,
-      title: "Kontakt",
-      text: "Har ni frågor? Tveka inte att höra av er till oss.\n\nGustav: +46 70 563 88 22\nMy: +46 72 387 57 87",
-    },
   ];
 
   return (
-    <section className="py-24 md:py-32 px-6 bg-secondary">
+    <section className="py-16 md:py-32 px-6 bg-secondary">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-display italic text-foreground mb-4">
           Praktisk information
         </h2>
         <div className="section-divider" />
-        <div className="mt-12 grid md:grid-cols-3 gap-10">
+        <div className="mt-10 md:mt-12 grid md:grid-cols-3 gap-10">
           {sections.map((section) => (
             <div key={section.title} className="text-center">
               <section.icon className="w-5 h-5 text-primary mx-auto mb-4" strokeWidth={1.5} />
@@ -36,13 +31,31 @@ const PracticalInfoSection = () => {
               </p>
             </div>
           ))}
+          <div className="text-center">
+            <Phone className="w-5 h-5 text-primary mx-auto mb-4" strokeWidth={1.5} />
+            <h3 className="font-display text-lg text-foreground mb-3">Kontakt</h3>
+            <p className="text-sm text-muted-foreground font-light leading-relaxed">
+              Har ni frågor? Tveka inte att höra av er till oss.
+            </p>
+            <p className="text-sm text-muted-foreground font-light leading-relaxed mt-3">
+              Gustav:{" "}
+              <a href="tel:+46705638822" className="text-primary underline underline-offset-2">
+                +46 70 563 88 22
+              </a>
+              <br />
+              My:{" "}
+              <a href="tel:+46723875787" className="text-primary underline underline-offset-2">
+                +46 72 387 57 87
+              </a>
+            </p>
+          </div>
         </div>
-        <div className="mt-20 text-center">
+        <div className="mt-16 md:mt-20 text-center">
           <Mic className="w-5 h-5 text-primary mx-auto mb-4" strokeWidth={1.5} />
-          <h3 className="font-display text-lg text-foreground mb-3">Tal & toastmadames</h3>
+          <h3 className="font-display text-lg text-foreground mb-3">Tal & Toastmadames</h3>
           <p className="text-sm text-muted-foreground font-light leading-relaxed max-w-md mx-auto">
             Önskar du att hålla tal under kvällen eller vill komma i kontakt med våra toastmadames mejlar du:{" "}
-            <a href="mailto:toastmadames@example.com" className="text-primary underline underline-offset-2">
+            <a href="mailto:toastmadames@example.com" className="text-primary underline underline-offset-2 break-words">
               toastmadames@example.com
             </a>
           </p>
