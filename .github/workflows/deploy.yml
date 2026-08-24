@@ -27,8 +27,6 @@ jobs:
       - run: bun install --frozen-lockfile
 
       - run: bun run build
-        env:
-          BASE_URL: /${{ github.event.repository.name }}/
 
       - name: Copy index.html as 404.html for SPA routing
         run: cp dist/index.html dist/404.html
