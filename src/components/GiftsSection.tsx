@@ -1,6 +1,6 @@
 const GiftsSection = () => {
   return (
-    <section className="py-24 md:py-32 px-6 bg-secondary">
+    <section className="py-16 md:py-32 px-6 bg-secondary">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-display italic text-foreground mb-4">
           Presenter

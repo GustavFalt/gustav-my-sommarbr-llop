@@ -17,13 +17,13 @@ const VenueSection = () => {
   ];
 
   return (
-    <section className="py-24 md:py-32 px-6 bg-secondary">
+    <section className="py-16 md:py-32 px-6 bg-secondary">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-display italic text-foreground mb-4">
           Platser
         </h2>
         <div className="section-divider" />
-        <div className="mt-12 grid md:grid-cols-2 gap-12">
+        <div className="mt-10 md:mt-12 grid md:grid-cols-2 gap-12">
           {venues.map((venue) => (
             <div key={venue.title} className="text-center">
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-2">
