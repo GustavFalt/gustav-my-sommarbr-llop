@@ -10,9 +10,9 @@ const VenueSection = () => {
     },
     {
       title: "Fest",
-      name: "Ulva Kvarn",
+      name: "Restaurang Ulva",
       address: "Ulva kvarn, 755 93 Uppsala",
-      mapUrl: "https://maps.google.com/maps?q=Ulva+kvarn,+755+93+Uppsala&hl=sv&z=15&output=embed",
+      mapUrl: "https://maps.google.com/maps?q=Restaurang+Ulva,+Ulva+kvarn,+755+93+Uppsala&hl=sv&z=15&output=embed",
     },
   ];
 
