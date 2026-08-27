@@ -62,7 +62,7 @@ const PracticalInfoSection = () => {
         </div>
         <div className="mt-16 md:mt-20 text-center">
           <Heart className="w-5 h-5 text-primary mx-auto mb-4" strokeWidth={1.5} />
-          <h3 className="font-display text-lg text-foreground mb-3">Barn & vuxenfest</h3>
+          <h3 className="font-display text-lg text-foreground mb-3">Barn på bröllopet</h3>
           <p className="text-sm text-muted-foreground font-light leading-relaxed max-w-md mx-auto">
             Vi ber om förståelse för att festen på kvällen är för vuxna. Barn under 15 år är varmt välkomna att vara med under vigseln i kyrkan, men inte på festen.
           </p>
