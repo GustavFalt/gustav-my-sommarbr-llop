@@ -54,9 +54,9 @@ const PracticalInfoSection = () => {
           <Mic className="w-5 h-5 text-primary mx-auto mb-4" strokeWidth={1.5} />
           <h3 className="font-display text-lg text-foreground mb-3">Tal & Toastmadames</h3>
           <p className="text-sm text-muted-foreground font-light leading-relaxed max-w-md mx-auto">
-            Önskar du att hålla tal under kvällen eller vill komma i kontakt med våra toastmadames mejlar du:{" "}
-            <a href="mailto:toastmadames@example.com" className="text-primary underline underline-offset-2 break-words">
-              toastmadames@example.com
+            Våra toastmadames heter Maja och Henny. Önskar du att hålla tal under kvällen eller vill komma i kontakt med dem mejlar du:{" "}
+            <a href="mailto:Maja.ramstrom02@gmail.com" className="text-primary underline underline-offset-2 break-words">
+              Maja.ramstrom02@gmail.com
             </a>
           </p>
         </div>
